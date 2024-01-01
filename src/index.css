@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"Unutterable";
+    src: url("/src/Fonts/Unutterable-z8E8X.ttf");
+}
+
+@font-face {
+    font-family:"Boli";
+    src: url("/src/Fonts/mvboli.ttf");
+}
+@font-face {
+    font-family:"segoepr";
+    src: url("/src/Fonts/segoepr.ttf");
+}
+@font-face {
+    font-family:"Reloaded";
+    src: url("/src/Fonts/Reloaded.ttf");
+}
+@font-face {
+    font-family:"Redemtion";
+    src: url("/src/Fonts/Redemtion.ttf");
+}
+@font-face {
+    font-family:"Bernard";
+    src: url("/src/Fonts/BernardMTCondensed.ttf");
+}
+@font-face {
+    font-family:"CENTURY";
+    src: url("/src/Fonts/CENTURY.TTF");
+}
+@font-face {
+    font-family:"Titling";
+    src: url("/src/Fonts/PerpetuaTitlingMTLight2.ttf");
+}
+@font-face {
+    font-family:"Arial";
+    src: url("/src/Fonts/Arial\ Rounded\ Mt\ Font.ttf");
+}
+@font-face {
+    font-family:"BlackWizard";
+    src: url("/src/Fonts/BlackWizardPersonalRegular-4BAgK.otf");
+}
+@font-face {
+    font-family:"WereBeast";
+    src: url("/src/Fonts/WereBeast-nRPAV.ttf");
+}
+@font-face {
+    font-family:"TwCenMTStd";
+    src: url("/src/Fonts/TwCenMTStd.otf");
+}
+@font-face {
+    font-family:"perpeta";
+    src: url("/src/Fonts/perpeta.ttf");
+}
+@font-face {
+    font-family:"MAIAN";
+    src: url("/src/Fonts/MAIAN.TTF");
+}
+@font-face {
+    font-family: "Monotype";
+    src: url("/src/Fonts/Monotype\ Corsiva.ttf") ;
+}
+@font-face {
+    font-family: "Castellar";
+    src: url("/src/Fonts/Castellar.ttf") ;
+}
+
+/* width */
+#test::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+#test::-webkit-scrollbar-track {
+    background: #e8e8e8;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+#test::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+#test::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+#formLogin input:focus{
+    /* outline: 2px solid #ffff; */
+    outline: none;
+    border-bottom: 2px rgb(255, 255, 255) solid ;
+    /* border: none; */
+    /* border-bottom: 2px white solid ; */
+}
+#formLogin input{
+    width: 300px;
+    border-bottom: 2px rgb(159, 159, 159) solid ;
+}
+#submit{
+    border:none;
+}
+
+#userNavigationScrool{
+    display: none;
+}
+
+#priceitem{
+    display: none;
+}
