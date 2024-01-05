@@ -113,3 +113,13 @@
 #priceitem{
     display: none;
 }
+
+#ScroolItem{
+    position: absolute;
+    translate: -300px;
+    /* left: 280px; */
+    transition: translate 0.5s;
+}
+#ScroolCard:hover #ScroolItem{
+    translate: 0 ;
+}
