@@ -59,7 +59,7 @@ function Pizza() {
                                     {
                                         data.Pizza.slice(0, 5).map((item)=>{
                                             return(
-                                                <Link className='Item relative w-auto bg-cover bg-no-repeat bg-blend-multiply h-full bg-neutral-200 grow overflow-hidden rounded-2xl' id='ScroolCard' style={{backgroundImage:`url(${item.Images[1]})`}}>
+                                                <Link to={"/Pizza/" + item.name.replace(/\s/g , "-")} className='Item relative w-auto bg-cover bg-no-repeat bg-blend-multiply h-full bg-neutral-200 grow overflow-hidden rounded-2xl' id='ScroolCard' style={{backgroundImage:`url(${item.Images[1]})`}}>
                                                     <div className='bg-neutral-950 bg-opacity-60 p-5 text-neutral-100 h-full w-full'id='ScroolItem'>
                                                         <h1 className='text-2xl pb-3'>{item.name}</h1>
                                                         <p>Ingredients:</p>
