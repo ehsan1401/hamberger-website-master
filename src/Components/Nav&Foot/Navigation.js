@@ -95,9 +95,8 @@ const Navigation = () => {
                     <img src="/img/Admin.jpg" id="userIconScrool" className="rounded-full w-14 h-14 hover:drop-shadow-[0_0_8px_rgba(256,256,256,0.5)] transition duration-300" title="USER" />
                 </div>
                 <div className="absolute top-20 right-3 text-center" id="userNavigationScrool">
-                        <Link to={"/Login"} className="w-32 h-10 flex justify-center items-center dark:hover:bg-opacity-70  dark:hover:text-neutral-800 dark:bg-white bg-neutral-950 hover:bg-opacity-80 bg-opacity-50 dark:bg-opacity-20">Login</Link>
-                        <Link className="w-32 h-10 flex justify-center items-center dark:hover:bg-opacity-70  dark:hover:text-neutral-800 dark:bg-white bg-neutral-950 hover:bg-opacity-80 bg-opacity-50 dark:bg-opacity-20">Second</Link>
-                        <Link className="w-32 h-10 flex justify-center items-center  dark:hover:bg-opacity-70  dark:hover:text-neutral-800 dark:bg-white bg-neutral-950 hover:bg-opacity-80 bg-opacity-50 dark:bg-opacity-20 rounded-b-2xl">six</Link>
+                        <Link to={"/Login"} className="w-32 h-10 flex justify-center items-center dark:hover:bg-opacity-70  dark:hover:text-neutral-800 dark:bg-white bg-neutral-950 hover:bg-opacity-80 bg-opacity-50 dark:bg-opacity-20">Log in</Link>
+                        <Link to={"/SignUp"} className="w-32 h-10 flex justify-center items-center  dark:hover:bg-opacity-70  dark:hover:text-neutral-800 dark:bg-white bg-neutral-950 hover:bg-opacity-80 bg-opacity-50 dark:bg-opacity-20 rounded-b-2xl">Sign up</Link>
 
                 </div>
             </ul>

@@ -7,6 +7,7 @@ import NotFounded from './Components/MainPages/NotFounded';
 import Food from './Components/MainPages/FoodPage';
 import Drinks from './Components/MainPages/Drinks';
 import Login from './Components/Login/Login';
+import SignUp from './Components/Login/SignUp';
 import Pizza from './Components/MainPages/Pizza';
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Foods/:id' element={<Food/>} />
         <Route path='/Drinks/:id' element={<Drinks/>} />
         <Route path='/Login' element={<Login/>} />
+        <Route path='/SignUp' element={<SignUp/>} />
         <Route path='/Pizza/:name' element={<Pizza/>} />
 
         <Route path='*' element={<NotFounded/>} />

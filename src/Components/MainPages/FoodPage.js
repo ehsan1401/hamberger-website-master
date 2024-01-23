@@ -162,9 +162,9 @@ const Food = () => {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="bg-neutral-100 dark:bg-neutral-500 w-auto mx-2 h-10 rounded-2xl px-5 flex justify-center items-center gap-4">
-                                                                <Link className="bg-hamberger-900 hover:bg-lime-600 hover:text-neutral-200 py-1 px-5 rounded-2xl text-neutral-700 transition duration-500 font-bold">Order Now</Link>
-                                                                <Link className="bg-hamberger-500 hover:bg-lime-600 hover:text-neutral-800 py-1 px-5 rounded-2xl text-neutral-100 transition duration-500 font-bold">Add to Cart</Link>
+                                                        <div className="bg-neutral-100 dark:bg-neutral-500 w-auto mx-2 mb-3 h-10 rounded-2xl px-5 flex justify-center items-center gap-2 md:gap-4">
+                                                                <Link className="bg-hamberger-900 hover:bg-lime-600 hover:text-neutral-200 py-1 md:px-5 px-2 rounded-2xl text-neutral-700 transition duration-500 font-bold md:text-base text-xs">Order Now</Link>
+                                                                <Link className="bg-hamberger-500 hover:bg-lime-600 hover:text-neutral-800 py-1 md:px-5 px-2 rounded-2xl text-neutral-100 transition duration-500 font-bold md:text-base text-xs">Add to Cart</Link>
                                                                 <p className="pl-5 uppercase text-hamberger-200 dark:text-neutral-200 dark:hover:text-lime-300 hover:text-lime-600 transition duration-300 cursor-default">Price : {food.Price}{food.Symbol}</p>
                                                         </div>
                                                     </div>
@@ -227,7 +227,7 @@ const Food = () => {
                                                                             return(
                                                                                 <div className="w-full h-auto flex p-3 rounded-3xl">
                                                                                     {/* <p className="w-2/12 h-16 bg-contain bg-no-repeat bg-center rounded-full" style={{backgroundImage:`url(${user.UserImageAddress})`}}></p> */}
-                                                                                    <img src={user.UserImageAddress} className="w-16 h-16 rounded-full"/>
+                                                                                    <img src={user.UserImageAddress} className="md:w-16 md:h-16 w-10 h-10 rounded-full"/>
                                                                                     
                                                                                     <div className="bg-neutral-300 w-full dark:bg-neutral-600 transition duration-300  rounded-2xl p-3 mx-2">
                                                                                         <div className="w-auto h-auto  mx-3">
@@ -263,7 +263,7 @@ const Food = () => {
                                                                                                         <p className="text-right text-xs inline float-right py-2 dark:text-neutral-200 transition duration-300"><span>{comment.Replay.ReplayDateTime.Date}</span> , <span>{comment.Replay.ReplayDateTime.time}</span></p>
                                                                                                     </div>
                                                                                                     <p className="py-2 dark:text-neutral-200 transition duration-300">
-                                                                                                        {comment.Replay.Text}
+                                                                                                        {comment.Replay.Text}   
                                                                                                     </p>
                                                                                                 </div>
 
